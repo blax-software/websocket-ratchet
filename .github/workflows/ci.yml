@@ -27,7 +27,7 @@ jobs:
             phpunit: phpunit/phpunit ^9
             can-fail: false
           - php: 8.2
-            phpunit: phpunit/phpunit latest
+            phpunit: phpunit/phpunit ^11
             can-fail: false
 
     steps:
